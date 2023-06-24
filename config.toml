@@ -1,0 +1,18 @@
+mode              = false
+
+[infer_audio_dir]
+# dir = "None" -----> use paths
+# dir = "/home/shuohan/remixit/clean"  -----> use dir
+dir         = "None"
+paths       = ["/home/shuohan/remixit/clean/clean_fileid_0.wav", "/home/shuohan/remixit/clean/clean_fileid_19.wav"]
+
+[train_audio_dir]
+# dir = "None" -----> use paths
+# dir = "/home/shuohan/remixit/clean"  -----> use dir
+dir         = "/home/shuohan/remixit/clean"
+paths       = ["/home/shuohan/remixit/clean/clean_fileid_0.wav", "/home/shuohan/remixit/clean/clean_fileid_19.wav"]
+
+[train_config]
+batch_size  =  16
+epochs      =  20
+lr          =  1e-3
